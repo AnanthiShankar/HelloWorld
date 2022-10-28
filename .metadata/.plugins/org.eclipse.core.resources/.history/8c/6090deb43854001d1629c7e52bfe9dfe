@@ -1,0 +1,36 @@
+package pages;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+
+public class LoginPage {
+	WebDriver driver;
+  @Test
+  public void Login() {
+	 
+  }
+  @BeforeTest
+  public void beforeTest() {
+	  System.setProperty("webdriver.chrome.driver","C:\\Ana\\Drivers\\Chromedriver\\chromedriver.exe");
+	   ChromeOptions HandleSSLError = new ChromeOptions();
+	   HandleSSLError.setAcceptInsecureCerts(true);
+	   HandleSSLError.addArguments("--disable-notifications");
+	   
+		//create an object of webdriver
+		driver = new ChromeDriver(HandleSSLError);
+		//navigate to webapplication
+		driver.get("https://www.netmeds.com/");
+		driver.manage().window().maximize();
+		Reporter.log("driver instantiation in chrome and netmeds site Launched");
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

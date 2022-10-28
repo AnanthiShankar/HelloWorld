@@ -1,0 +1,15 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage {
+	@FindBy(xpath="//*[@id=\"explore-beauty\"]/div[2]/div/div[1]/div/form/div/button")
+	WebElement firstItem;
+	@FindBy(xpath="//*[@id=\"explore-beauty\"]/h2")
+	WebElement LimitedOfferText;
+	
+	 public void HomePagetoAddItems() {
+	 
+	 }
+}

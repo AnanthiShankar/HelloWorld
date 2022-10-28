@@ -1,0 +1,50 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindAll;
+import org.openqa.selenium.support.FindBys;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
+public class PetInsurance {
+	static WebDriver driver;
+	 ExtentTest test;
+	 ExtentReports report;
+	 
+	 public void PetInsurance(WebDriver driver) {
+		 this.driver=driver;
+		 PageFactory.initElements(driver,this);
+	 }
+	 
+	 @FindAll({@FindBy(id="petName"),
+			@FindBy(name="petName"),
+			@FindBy(className="Inputstyled__InputStyled-sc-kcrf0l-2 fFLgtP")})
+	 WebElement petName;
+	 @FindAll({@FindBy(id="zipCode"),
+			@FindBy(name="zipCode"),
+			@FindBy(className="Inputstyled__InputStyled-sc-kcrf0l-2 fFLgtP")})
+	 WebElement zipCode;
+	 @FindAll({@FindBy(id="petType"),
+			@FindBy(xpath="/html/body/div[1]/div[1]/div/main/div/div/div[4]/div/form/div/div[2]/div/button[2]")})
+	 WebElement petTypeCat;
+	 @FindAll({@FindBy(id="petType"),
+			@FindBy(xpath="/html/body/div[1]/div[1]/div/main/div/div/div[4]/div/form/div/div[2]/div/button[1]")})
+	 WebElement petTypeDog;
+	 @FindAll({@FindBy(xpath="/html/body/div[1]/div[1]/div/main/div/div/div[4]/div/form/div/button")})
+	 	 WebElement btn;
+	 }
+		
+
+
+	 
+	 public  void InsurancePage(petName,zipCode,petType,button1) {
+		 petName.sendKeys("Scooby");
+		 
+	 }
+	 
+

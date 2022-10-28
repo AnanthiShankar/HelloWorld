@@ -1,0 +1,20 @@
+Feature: NetMeds 
+Description: This test is to check the NetMeds functionality 
+Background: user is logged in
+Given User is on the NetMeds HomePage
+When User enters the Phonenumber details
+And User enters the OTP details
+And User clicks the VerifyButton
+
+
+Scenario: SearchHotel Successful
+When User selects location from the dropdown
+And User clicks on search button
+Then The List of Hotels is displayed
+
+Scenario: Select Hotel
+When User selects location from the dropdown
+And User clicks on search button
+And User selects a radio button
+And User clicks on continue button
+Then The Book a Hotel  page is displayed

@@ -1,0 +1,15 @@
+io.cucumber.junit.UndefinedStepException: The step 'User enters the username as "vasuvespag" details' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("User enters the username as {string} details")
+public void user_enters_the_username_as_details(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters the password as {string} details")
+public void user_enters_the_password_as_details(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

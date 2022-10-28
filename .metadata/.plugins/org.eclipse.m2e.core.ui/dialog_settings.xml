@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Administrator\JavaWorkspace\HotelAppNew\src\test\java\testcases\Login.java"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\DataDriverDemo"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\HotelTestNG\src\test\java\test\CrossBrowser.java"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\HotelTestNG"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\HotelAppwithPF"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\HotelAppAutomation\src\test\MyFristAutmationScript.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="NetMedsCucumber"/>
+			<item value="HotelAppCucumDemo"/>
+			<item value="NetMedsProject"/>
+			<item value="ProjectPetco"/>
+			<item value="ExtendReportDemo"/>
+			<item value="DataDriverDemo"/>
+			<item value="TestNGPriorities"/>
+			<item value="HotelTestNG"/>
+			<item value="GridDemo"/>
+			<item value="HotelAppExternalFile"/>
+			<item value="HotelAppwithPF"/>
+			<item value="HotelAppNew"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="NetMedsCucumber"/>
+			<item value="HotelAppCucumDemoHotelAppCucumDemoHotelAppCucumDemo"/>
+			<item value="NetMedsProject"/>
+			<item value="ProjectPetco"/>
+			<item value="ExtendReportDemo"/>
+			<item value="DataDriverDemo"/>
+			<item value="TestNGPriorities"/>
+			<item value="HotelTestNG"/>
+			<item value="GridDemo"/>
+			<item value="HotelAppExternalFile"/>
+			<item value="HotelAppwithPF"/>
+			<item value="HotelAppNew"/>
+			<item value="HotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNew"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

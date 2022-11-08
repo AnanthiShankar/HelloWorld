@@ -1,7 +1,0 @@
-Feature: NetMeds 
-Description: This test is to check the NetMeds functionality 
-Scenario: user is logged in
-Given User is on the NetMeds HomePage
-When User enters the Phonenumber details
-And User enters the OTP details
-And User clicks the VerifyButton

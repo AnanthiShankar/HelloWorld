@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Administrator\JavaWorkspace\APICuCum"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\RestAssuredDemo\src\test\java\test\GoRestPut.java"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\RestAssuredDemo\src\test\java\test\BikeWise.java"/>
+			<item value="C:\Users\Administrator\JavaWorkspace\NetMedsFinalCucum"/>
 			<item value="C:\Users\Administrator\JavaWorkspace\HotelAppNew\src\test\java\testcases\Login.java"/>
 			<item value="C:\Users\Administrator\JavaWorkspace\DataDriverDemo"/>
 			<item value="C:\Users\Administrator\JavaWorkspace\HotelTestNG\src\test\java\test\CrossBrowser.java"/>
@@ -49,6 +53,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="RestAssuredCucumReqres"/>
+			<item value="APICuCum"/>
+			<item value="Serialising"/>
+			<item value="RestAssuredDemo"/>
+			<item value="NetMedsCuCumReport"/>
+			<item value="JenkingInteg"/>
+			<item value="JenkinInteg"/>
+			<item value="NetMedsFinalCucum"/>
 			<item value="NetMedsCucumber"/>
 			<item value="HotelAppCucumDemo"/>
 			<item value="NetMedsProject"/>
@@ -56,15 +68,18 @@
 			<item value="ExtendReportDemo"/>
 			<item value="DataDriverDemo"/>
 			<item value="TestNGPriorities"/>
-			<item value="HotelTestNG"/>
-			<item value="GridDemo"/>
-			<item value="HotelAppExternalFile"/>
-			<item value="HotelAppwithPF"/>
-			<item value="HotelAppNew"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="RestAssuredCucumReqres"/>
+			<item value="APICuCum"/>
+			<item value="Serialising"/>
+			<item value="RestAssuredDemo"/>
+			<item value="NetMedsCuCumReport"/>
+			<item value="JenkingInteg"/>
+			<item value="JenkinInteg"/>
+			<item value="NetMedsFinalCucumNetMedsFinalCucumNetMedsFinalCucum"/>
 			<item value="NetMedsCucumber"/>
 			<item value="HotelAppCucumDemoHotelAppCucumDemoHotelAppCucumDemo"/>
 			<item value="NetMedsProject"/>
@@ -72,12 +87,6 @@
 			<item value="ExtendReportDemo"/>
 			<item value="DataDriverDemo"/>
 			<item value="TestNGPriorities"/>
-			<item value="HotelTestNG"/>
-			<item value="GridDemo"/>
-			<item value="HotelAppExternalFile"/>
-			<item value="HotelAppwithPF"/>
-			<item value="HotelAppNew"/>
-			<item value="HotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNewHotelAppNew"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
